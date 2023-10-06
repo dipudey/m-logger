@@ -1,0 +1,24 @@
+{
+    "name": "dipu/m-logger",
+    "description": "Simplified Magento2 Log System",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dipu Chandra Dey"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~7.0|^8.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php",
+            "Helpers/functions.php"
+        ],
+        "psr-4": {
+            "Dipu\\MLogger\\": ""
+        }
+    }
+}
