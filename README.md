@@ -15,7 +15,7 @@ composer require dipu/m-logger
 ```
 m_logger(['MLogger','Magento2']);
 ```
-you can pass parameters in your log type by default it info
+you can pass second parameters in your log type by default it info
 Available log types
 - info
 - error
